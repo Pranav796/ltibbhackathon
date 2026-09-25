@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp-container
-        image: shaikmustafa/charan:db
+        image: pranavgalipelli/bloodbank-app:v1
         ports:
         - containerPort: 3306
         
