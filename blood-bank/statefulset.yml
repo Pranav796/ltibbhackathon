@@ -19,11 +19,7 @@ spec:
         image: shaikmustafa/charan:db
         ports:
         - containerPort: 3306
-        envFrom:
-        - secretRef:
-            name: bankapp-db-secret
-        - configMapRef:
-            name: bankapp-config
+        
         resources:
           requests:
             cpu: "100m"
